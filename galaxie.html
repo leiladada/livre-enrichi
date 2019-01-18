@@ -1,0 +1,58 @@
+galaxie.html
+Le mois dernier
+16 déc. 2018
+T
+Tess Kermarrec a importé un élément
+HTML
+galaxie.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style2.css" />
+        <title>Galaxie de mots</title>
+    </head>
+
+    <body>
+<h1 class="ed"><a href="galaxie2.html">ÉDITION</a></h1>
+
+ <div id="blocksite">
+    <a href="galaxie.html">Retour&nbsp;au&nbsp;site</a>
+</div>
+
+
+
+<script>
+ 
+function bg(elem,sens,vitesse){
+ 
+	elem=="body" ? this.elem=document.body : this.elem=document.getElementById(elem)
+ 
+	this.sens=sens;
+ 
+	this.vitesse=vitesse;
+ 
+	var that=this;
+ 
+	document.documentElement.addEventListener("mousemove",function(event){that.mv(event)},false);
+}
+ 
+bg.prototype.mv = function(s){
+ 
+	var dde=(navigator.vendor) ? document.body : document.documentElement;
+ 
+	var setX = this.sens=="gauche" ? -(s.clientX + dde.scrollLeft) : s.clientX + dde.scrollLeft;
+ 
+	this.elem.style.backgroundPosition=(setX/this.vitesse)+'px 0px';	
+}
+ 
+function init(){
+ 
+	new bg("body","gauche",4);
+ 
+}
+ 
+window.addEventListener("load",init,false);
+ 
+</script>
+    </body>
