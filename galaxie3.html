@@ -1,0 +1,73 @@
+galaxie3.html
+Le mois dernier
+16 déc. 2018
+T
+Tess Kermarrec a importé un élément
+HTML
+galaxie3.html
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style2.css" />
+        <title>Galaxie de mots</title>
+    </head>
+
+    <body>
+
+<div id="block">
+    <a href="galaxie.html">Retour&nbsp;à&nbsp;l'accueil</a>
+</div>
+
+<div id="blocksite">
+	<a href="galaxie.html">Retour&nbsp;au&nbsp;site</a>
+</div>
+
+
+    <h1 class="ed">NUMÉRIQUE</h1>
+
+<h2 class="edito"><a href="galaxie6.html">éditorialisation</a></h2>
+<h2 class ="enrichi"><a href="galaxie5.html">livre&nbsp;enrichi</a></h2>
+<h2 class="mediation">médiation</h2>
+<h2 class="interaction">interactivité</h2>
+<h2 class="web">édition&nbsp;web</h2>
+<h2 class="ePub">ePub</h2>
+<h2 class="ouvert">dépôt&nbsp;ouvert</h2>
+<h2 class="droit">droit&nbsp;d'auteur</h2>
+<h2 class="eco"><a href="galaxie7.html">économie</a></h2>
+<h2 class="autoedition"><a href="galaxie4.html">autoédition</a></h2>
+
+
+<script>
+ 
+function bg(elem,sens,vitesse){
+ 
+	elem=="body" ? this.elem=document.body : this.elem=document.getElementById(elem)
+ 
+	this.sens=sens;
+ 
+	this.vitesse=vitesse;
+ 
+	var that=this;
+ 
+	document.documentElement.addEventListener("mousemove",function(event){that.mv(event)},false);
+}
+ 
+bg.prototype.mv = function(s){
+ 
+	var dde=(navigator.vendor) ? document.body : document.documentElement;
+ 
+	var setX = this.sens=="gauche" ? -(s.clientX + dde.scrollLeft) : s.clientX + dde.scrollLeft;
+ 
+	this.elem.style.backgroundPosition=(setX/this.vitesse)+'px 0px';	
+}
+ 
+function init(){
+ 
+	new bg("body","gauche",4);
+ 
+}
+ 
+window.addEventListener("load",init,false);
+ 
+</script>
+    </body>
