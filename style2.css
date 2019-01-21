@@ -1,0 +1,248 @@
+@font-face {
+
+	font-family: "Nillima";
+	src: url('Nillima.ttf');
+}
+
+
+@font-face {
+	font-family: "JuanMikes";
+	src: url('JuanMikes.otf');
+
+}
+
+body {
+background-image:url(../Galaxie/Star_Galaxie.jpg);
+background-repeat:no-repeat;
+color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {	
+	color: #52c7fc; 
+}
+
+
+h1
+{
+	font-size: 3em;
+	text-align: center;
+    margin: 0;
+	font-family: 'JuanMikes';
+}
+    
+
+h2 
+{
+	font-family: 'Nillima';
+	font-size: 2em;
+	text-align: center;
+}
+
+h3
+{
+	font-family: 'Nillima';
+	font-size: 3em;
+	text-align: center;
+}
+
+
+h4
+{
+	font-family: 'Nillima';
+	font-size: 2.5em;
+	text-align: right;
+	margin: 20px 100px;
+	padding: 10px;
+}
+
+p
+{
+	font-family: 'JuanMikes';
+	color: white;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 20px 100px;
+	padding: 10px;
+	line-height: 1.2em;
+	background-color: white;
+	color: black;
+
+}
+
+#blocksite {
+	font-family: 'Nillima';
+	background:black;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    border-radius:4px; 
+    right: 1%;
+    top: 1%;
+ }
+
+
+
+#block {
+	font-family: 'Nillima';
+    background:black;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    border-radius:4px; 
+    left: 1%;
+    top: 1%;
+}
+
+
+.ed {
+	position: absolute;
+    left: 42%;
+    top: 35%;
+    width: 100px;
+    height: 100px;
+}
+ 
+.imprime
+{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    width: 100px;
+    height: 100px;
+}
+
+.numerique 
+{
+
+	 position: absolute;
+    right: 12%;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+}
+
+.edito
+
+{
+	position: absolute;
+    left: 76%;
+    top: 17%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.enrichi
+{
+	position: absolute;
+    left: 13%;
+    top: 55%;
+    width: 100px;
+    height: 100px;
+}
+
+.mediation
+{
+	position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.interaction
+
+{
+	position: absolute;
+    left: 30%;
+    top: 75%;
+    width: 100px;
+    height: 100px;
+}
+
+.web
+{
+	position: absolute;
+    left: 62%;
+    top: 3%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.ePub
+{
+	position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 100px;
+    height: 100px;
+}
+
+.ouvert
+{
+	position: absolute;
+    left: 40%;
+    top: 1%;
+    width: 100px;
+    height: 100px;
+}
+
+.droit
+{
+	position: absolute;
+    left: 20%;
+    top: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+.eco
+{
+	position: absolute;
+    left: 85%;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.autoedition
+
+{
+	position: absolute;
+    left: 72%;
+    top: 67%;
+    width: 100px;
+    height: 100px;
+}
+
+
+body {font-size: 100%}
+
+
+@media screen and (max-width: 64em) {
+ body {
+      font-size: 90%;
+   }
+}
+
+@media screen and (max-width: 50em) {
+ body {
+       font-size: 75%;
+   }
+}
+
+@media screen and (max-width: 30em) {
+   body {
+        font-size: 50%;
+  }
+}

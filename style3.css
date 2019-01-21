@@ -1,0 +1,216 @@
+@font-face {
+
+	font-family: "Nillima";
+	src: url('Nillima.ttf');
+}
+
+
+
+@font-face {
+	font-family: "JuanMikes";
+	src: url('JuanMikes.otf');
+
+}
+
+@font-face {
+	font-family: "Arapey";
+	src: url('Arapey.ttf');
+}
+
+
+h2 
+{
+	font-family: 'Nillima';
+	font-size: 2em;
+
+}
+
+h3
+{
+	font-family: 'Nillima';
+	font-size: 3em;
+	text-align: center;
+}
+
+
+h4
+{
+	font-family: 'Nillima';
+	font-size: 2.5em;
+	text-align: center;
+	margin: 20px 100px;
+	padding: 10px;
+}
+
+h5
+{
+	font-family: 'Nillima';
+	font-size: 2em;
+	color: grey;
+	text-align: center;
+	margin: 20px 100px;
+	padding: 10px;
+}
+
+h6
+{
+	font-family: 'JuanMikes';
+	font-size: 1.8em;
+	color: grey;
+	text-align: left;
+	margin-left: 20%;
+	padding: 10px;
+}
+
+
+
+body {
+		background-color: beige;
+		font-size: 100%;
+		widows: 4;
+		orphans: 4;
+}
+
+p, img
+{
+	font-family: 'Arapey';
+	color: black;
+	font-size: 1.3em;
+	text-align: justify;
+	margin: 10px 16%;
+	padding: 1%;
+	line-height: 1.4em;
+	color: black;
+}
+
+ul 
+{
+	font-family: 'Arapey';
+	color: black;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 20px 16%;
+	margin-left: 23%;
+	padding: 1%;
+	line-height: 1.4em;
+	color: black;
+}
+.taille {
+	width: 35%;
+ 	height: auto;
+}
+
+.taille2 {
+	width: 27%;
+	height: auto;
+}
+
+a.ref {
+	font-family: 'JuanMikes';
+	color: black;
+	font-size: 0.8em;
+	text-align: justify;
+	color: black;
+	padding: 1%;
+	}
+a.leg 
+{
+	font-family: 'JuanMikes';
+	color: black;
+	font-size: 0.8em;
+	text-align: justify;
+	color: blue;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	}
+a {
+	font-family: 'Nillima';
+	text-decoration: none;
+	color: white;
+}
+
+a.note {
+font-family: 'Nillima';
+	text-decoration: none;
+	color: blue;
+
+}
+
+
+a:hover.bold, .note{	
+	font-weight: bold; 
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Nillima';
+  border-left: 4px solid #CCC;
+  padding-left: 2%;
+}
+
+
+#block {
+    background:black;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    border-radius:4px; 
+    left: 1%;
+    top: 1%;
+}
+
+#blocksite {
+	background:black;
+    color:#FFF;
+    padding:10px;
+    position:absolute;
+    border-radius:4px; 
+    right: 1%;
+    top: 1%;
+}
+
+.caption {
+	font-size: 0.7em;
+	font-style: italic;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.first::first-letter{
+font-size : 2em;
+}
+
+.first::first-line {
+ font-variant: small-caps
+}
+
+.auteur {
+	font-variant: small-caps;
+	color: red;
+	text-align: right;
+}
+
+@media screen and (max-width: 64em) {
+ body {
+      font-size: 80%;
+   }
+}
+
+@media screen and (max-width: 50em) {
+ body {
+       font-size: 65%;
+   }
+}
+
+@media screen and (max-width: 30em) {
+   body {
+        font-size: 40%;
+  }
+}
+

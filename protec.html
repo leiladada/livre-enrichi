@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+<TITLE>Protection simplifiée par mot de passe</TITLE>
+  <link rel="stylesheet" href="questionnaire.css">
+<SCRIPT language="Javascript">
+	function demanderMotDePasse()
+	{var MotDePasse = prompt ("Donnez le mot de passe pour accéder au site" , "xxxx")
+
+		if (MotDePasse == "EditionNum")
+		{window.location.assign("file:///C:/Users/Lenovo/Desktop/siteweb/siteweb.html")}
+		else {document.writeln("<body><h1>Mauvais mot de passe<h1>"
+			+"Pour réessayer, retournez à la page précédente</body>"
+			)
+	}
+}
+</SCRIPT>
+
+</head>
+<body onload="demanderMotDePasse()">
+
+
+</body>
+</html>
